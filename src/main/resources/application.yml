@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      database: groundupai
+      host: 10.99.0.221
+      port: 27017
