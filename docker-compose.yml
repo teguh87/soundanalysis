@@ -1,9 +1,10 @@
 version: "3"
 services:
   api:
+    image: api_server:latest
     container_name: api_server
     build:
+      context: docker-api_server
       dockerfile: Dockerfile
-    image: api_server:latest
     ports:
       - "8080:8080"
