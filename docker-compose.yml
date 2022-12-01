@@ -4,7 +4,7 @@ services:
     image: api_server:latest
     container_name: api_server
     build:
-      context: docker-api_server
+      context: .
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
